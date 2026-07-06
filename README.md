@@ -32,6 +32,11 @@ Backend: Node.js, Express, PostgreSQL
 Browse and search all recipes filtered by cook time, budget, and nutritional goals. Users can add, edit, and delete recipes with full form validation.
 [gif goes here]
 
+### Add a Recipe
+
+Users can submit a new recipe through a form with fields for title, cook time, estimated cost, and ingredients. The form is validated before submission to ensure all required fields are filled in correctly.
+[gif goes here]
+
 ### Daily Nutrition Tracker
 
 Log meals throughout the day and automatically calculate total nutrient intake. See a breakdown of protein, iron, vitamin C, and more compared to daily recommended values.
@@ -42,6 +47,20 @@ Log meals throughout the day and automatically calculate total nutrient intake. 
 Explore a library of ingredients and their nutritional content. Each ingredient is linked to multiple recipes and nutrients, helping users understand what they are eating.
 [gif goes here]
 
+### Recipe Detail Modal
+
+Click any recipe card to open a modal showing full nutrition info, ingredients, steps, and estimated cost without navigating away from the current page.
+[gif goes here]
+
+### User Profile and Budget Settings
+
+Users can set their weekly food budget and daily calorie goal. The app uses these preferences to personalize recipe suggestions and nutrition targets.
+[gif goes here]
+
+### Database Reset
+
+Reset the entire database back to its default seeded state with one click, restoring all sample recipes, ingredients, and nutrients for demo purposes.
+[gif goes here]
 
 ### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
 

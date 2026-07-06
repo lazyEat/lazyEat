@@ -13,20 +13,20 @@ This unit, be sure to complete all tasks listed below. To complete a task, place
 - [x] In `readme.md`: complete the **Description and Purpose** section
 - [x] In `readme.md`: complete the **Inspiration** section
 - [ ] In `readme.md`: list a name and description for all features (minimum 6 for full points) you intend to include in your app (in future units, you will check off features as you complete them and add GIFs demonstrating the features)
-- [ ] In `planning/user_stories.md`: add all user stories (minimum 10 for full points)
-- [ ] In `planning/user_stories.md`: use 1-3 unique user roles in your user stories
+- [x] In `planning/user_stories.md`: add all user stories (minimum 10 for full points)
+- [x] In `planning/user_stories.md`: use 1-3 unique user roles in your user stories
 - [ ] In this document, complete all thre questions in the **Reflection** section below
 
 ## Reflection
 
 ### 1. What went well during this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+Our group communicated well. We formed a WhatsApp group to stay in touch and everyone replied promptly. We also had a good structure for organizing our project — we created a Google Doc to outline the tasks step by step and used it to assign work. Each team member could claim a task by putting their name next to it.
 
 ### 2. What were some challenges your group faced in this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We were a bit confused about the tasks for this week. While reading the project instructions, we saw "Baseline Features (MUST complete ALL)" and "Custom Features (MUST complete TWO)" and initially thought those were due this week. We eventually realized those are the requirements for the entire project, due at the end of the course. Once we figured that out, we understood that for this week we only needed to complete Milestone 1.
 
 ### 3. What additional support will you need in upcoming units as you continue to work on your final project?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We found that working across multiple tables is challenging. Designing the database schema — deciding on tables, columns, and relationships — feels difficult because changing one thing in a table can affect other parts of the code like controllers, reset.js, and the frontend API calls. We would appreciate more demos and practical tips on how to design tables and get multiple tables working together effectively.
