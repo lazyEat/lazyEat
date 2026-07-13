@@ -10,4 +10,4 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 [👉🏾👉🏾👉🏾 Include an image or images of the diagram below. You may also wish to use the following markdown syntax to outline each table, as per your preference.]
 
-![Entity Relationship Diagram](.entity_relationship_diagram.jpeg)
+![Entity Relationship Diagram](https://github.com/Raheemkdk/web103_finalproject/blob/main/planning/entity_relationship_diagram.png)
