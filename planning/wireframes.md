@@ -4,7 +4,15 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## List of Pages
 
-[👉🏾 List the pages you expect to have in your app, with a ⭐ next to pages you have wireframed]
+* Home 
+* Search
+* Food details
+* Profile
+* Explore 
+* Add nutrition/BMI/Meal record
+* Add recipe
+* Nutrient database
+* Settings
 
 ## Wireframe 1: Home Page
 The home page displays a calendar and provides navigation to weight records and food logs.
@@ -20,3 +28,5 @@ The search page includes a search bar and displays popular searches and search h
 The food detail page shows the food name, photo, calories, and nutritional information.
 
 ![Food Detail Page Wireframe](./wireframes_pages/FoodDetailPage.jpeg)
+
+⭐
