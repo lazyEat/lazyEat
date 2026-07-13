@@ -48,4 +48,4 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## Entity Relationship Diagram
 
-![Entity Relationship Diagram](https://github.com/Raheemkdk/web103_finalproject/blob/main/planning/erd_pictures/entity_relationship_diagram.png)
+![Entity Relationship Diagram](./erd_pictures/entity_relationship_diagram.png)
