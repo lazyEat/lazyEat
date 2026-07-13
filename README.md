@@ -16,7 +16,7 @@ LazyEats is a full-stack web app that helps busy, budget-conscious people eat he
 
 ### Inspiration
 
-A lot of people — including myself — struggle to eat well, not because they don't care, but because healthy eating feels complicated and expensive. I often skip meals or reach for chips because I'm too lazy to cook, and I know I'm not alone. Poor nutrition affects how you feel and perform every day, yet most food apps are either too complex or ignore budget constraints entirely. LazyEats was built for people who want to eat better but need simple, affordable, and fast options to make that actually happen.
+A lot of people (including ourselves) struggle to eat well, not because they don't care, but because healthy eating feels complicated and expensive. I often skip meals or reach for chips because I'm too lazy to cook, and I know I'm not alone. Poor nutrition affects how you feel and perform every day, yet most food apps are either too complex or ignore budget constraints entirely. LazyEats was built for people who want to eat better but need simple, affordable, and fast options to make that actually happen.
 
 
 ## Tech Stack
