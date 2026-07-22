@@ -35,7 +35,7 @@ Browse the full list of recipes as cards showing title, cook time, and estimated
 ### View Single Recipe
 
 Click into any recipe from the list to see its full detail page, including cook time, estimated cost, and the complete ingredient list.
-![](viewRecipe.gif)
+![](recipeDetail.gif)
 
 
 ### Create Recipe
