@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { getAllRecipes } from '../services/recipesApi.jsx'
 import Card from '../components/Card.jsx'
 import './viewRecipes.css'
+import './recipeDetail.css'
 const ViewRecipes = ({ title }) => {
   const [recipes, setRecipes] = useState([])
 
@@ -24,6 +26,7 @@ const ViewRecipes = ({ title }) => {
           />
         ))}
       </div>
+      <Link to='/recipes/new' className='btn btn-update create-link'>+ Create Recipe</Link>
     </div>
   )
 }

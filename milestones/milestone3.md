@@ -17,37 +17,37 @@ You will need to reference the GitHub Project Management guide in the course por
     3. read all recipes
     4. read one recipe
     5. delete one recipe
-- [] In your repo, update the status of issues in your project board.
-- [ ] In your repo, create a GitHub Milestone for each final project unit, corresponding to each of the 5 milestones in your `milestones/` directory.
+- [x] In your repo, update the status of issues in your project board.
+- [x] In your repo, create a GitHub Milestone for each final project unit, corresponding to each of the 5 milestones in your `milestones/` directory.
   - List the name of each milestone you created:
     1. milestone1
     2. milestone2
     3. milestone3
     4. milestone4
     5. milestone5
-  - [ ] Set the completion percentage of each milestone. The GitHub Milestone for this unit (Milestone 3 - Unit 7) should be 100% completed when you submit for full points.
-- [ ] In `readme.md`, check off the features you have completed in this unit by adding a ✅ emoji in front of the feature's name.
-  - [ ] Under each feature you have completed, include a GIF showing feature functionality.
-- [ ] In this documents, complete all five questions in the **Reflection** section below.
+  - [x] Set the completion percentage of each milestone. The GitHub Milestone for this unit (Milestone 3 - Unit 7) should be 100% completed when you submit for full points.
+- [x] In `readme.md`, check off the features you have completed in this unit by adding a ✅ emoji in front of the feature's name.
+  - [x] Under each feature you have completed, include a GIF showing feature functionality.
+- [x] In this documents, complete all five questions in the **Reflection** section below.
 
 ## Reflection
 
 ### 1. What went well during this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We created the backend and frontend for the project. And we follow the MVP, we finished CRUD of the recipes table. And we will add on other tables to that as we move on.
 
 ### 2. What were some challenges your group faced in this unit?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We had difficult to learn the github organization operations first. And we lacked communication in the group.
 
 ### Did you finish all of your tasks in your sprint plan for this week? If you did not finish all of the planned tasks, how would you prioritize the remaining tasks on your list?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We finshed the MVP and there are a lot more planned tasks we will work on. We will do the nutrtion track first, and then the foods labels later. 
 
 ### Which features and user stories would you consider “at risk”? How will you change your plan if those items remain “at risk”?
 
-[👉🏾👉🏾👉🏾 your answer here]
+The Daily Nutrition Tracker and the Ingredient and Nutrient Database are at risk since they depend on new tables and relationships we haven't built yet, and they need more backend design work than the recipe CRUD did. If they stay at risk, we will scope them down to the minimum needed to demo (e.g. logging meals against a fixed set of nutrients) rather than building the full ingredient/nutrient relational model, and push extras like the Recipe Detail Modal and Database Reset to later milestones.
 
 ### 5. What additional support will you need in upcoming units as you continue to work on your final project?
 
-[👉🏾👉🏾👉🏾 your answer here]
+We'd like guidance on designing the database schema for the nutrition tracking and ingredient/nutrient relationships, since that's more complex than the recipes table we've done so far. We could also use some tips on keeping communication and task splitting consistent across the group as we take on more features in parallel.

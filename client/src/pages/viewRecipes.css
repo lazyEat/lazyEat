@@ -1,6 +1,16 @@
 .view-recipes{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-list {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.create-link {
+    margin: 20px 0;
 }

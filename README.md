@@ -27,15 +27,33 @@ Backend: Node.js, Express, PostgreSQL
 
 ## Features
 
-### Recipe Browser
+### View All Recipes
 
-Browse and search all recipes filtered by cook time, budget, and nutritional goals. Users can add, edit, and delete recipes with full form validation.
-[gif goes here]
+Browse the full list of recipes as cards showing title, cook time, and estimated cost, with quick links into each recipe's detail page.
+![](viewAllRecipes.gif)
 
-### Add a Recipe
+### View Single Recipe
 
-Users can submit a new recipe through a form with fields for title, cook time, estimated cost, and ingredients. The form is validated before submission to ensure all required fields are filled in correctly.
-[gif goes here]
+Click into any recipe from the list to see its full detail page, including cook time, estimated cost, and the complete ingredient list.
+![](viewRecipe.gif)
+
+
+### Create Recipe
+
+Add a new recipe with a title, cook time, estimated cost, and a comma-separated list of ingredients through a simple form.
+![](createRecipe.gif)
+
+
+### Update Recipe
+
+Edit an existing recipe's title, cook time, estimated cost, or ingredients, and save the changes from its detail page.
+![](updateRecipe.gif)
+
+### Delete Recipe
+
+Remove a recipe from the list entirely with one click from its detail page.
+![](deleteRecipe.gif)
+
 
 ### Daily Nutrition Tracker
 
@@ -63,6 +81,7 @@ Reset the entire database back to its default seeded state with one click, resto
 [gif goes here]
 
 ### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
+
 
 ## Installation Instructions
 
