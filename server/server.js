@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
     res.status(200).send('<h1 style="text-align: center; margin-top: 50px;">Lazy Eat</h1>')
 })
 
-app.use('/api/recipes', recipeRoute)
+app.use('/recipes', recipeRoute)
 
 const PORT = process.env.PORT || 3001
 

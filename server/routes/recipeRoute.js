@@ -12,7 +12,7 @@ const router = express.Router()
 router.get('/', getAllRecipes)
 router.get('/:id', getRecipeById)
 router.post('/', createRecipe)
-router.put('/:id', updateRecipe)
+router.patch('/:id', updateRecipe)
 router.delete('/:id', deleteRecipe)
 
 export default router
