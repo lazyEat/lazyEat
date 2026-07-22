@@ -2,7 +2,10 @@ import {pool} from './database.js'
 import './dotenv.js'
 import { recipesData } from '../data/recipeData.js'
 
+
+
 const createTable = async()=>{
+    const dropQuery = 'DROP TABLE IF EXISTS recipes'
     await pool.query('DROP TABLE IF EXISTS recipes')
 
     await pool.query(`
