@@ -1,13 +1,34 @@
-import { useState } from 'react'
-
+import { useRoutes } from 'react-router-dom'
+import Header from './components/Header.jsx'
+import ViewRecipes from './pages/viewRecipes.jsx'
+import RecipeDetail from './pages/recipeDetail.jsx'
+import EditRecipe from './pages/editRecipe.jsx'
 import './App.css'
 
-function App() {
+const App = () => {
+  let element = useRoutes([
+    {
+      path: '/',
+      element: <ViewRecipes title='Lazy Eats | Recipes' />
+    },
+    {
+      path: '/recipes/:id',
+      element: <RecipeDetail title='Lazy Eats | Recipe' />
+    },
+    {
+      path: '/recipes/:id/edit',
+      element: <EditRecipe title='Lazy Eats | Edit Recipe' />
+    }
+  ])
 
   return (
-    <>
-      hello
-    </>
+    <div className='app'>
+
+      <Header />
+
+      { element }
+
+    </div>
   )
 }
 
