@@ -11,3 +11,26 @@ body {
   background: #f2f7f2;
   min-height: 100vh;
 }
+
+/* decorative leaf border fills the empty space at the bottom */
+body::after {
+  content: '';
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  pointer-events: none;
+  z-index: -1;
+  background-repeat: repeat-x;
+  background-position: bottom left;
+  background-size: 200px 90px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='90' viewBox='0 0 200 90'%3E%3Cg transform='translate(35,86) rotate(-18) scale(0.7)'%3E%3Cpath d='M0,-23 C13,-15 14,8 7,20 C3,26 0,30 0,32 C0,30 -3,26 -7,20 C-14,8 -13,-15 0,-23 Z' fill='%237fbf5a'/%3E%3Cpath d='M0,-19 L0,29' stroke='%235a9440' stroke-width='1.5' fill='none'/%3E%3Cpath d='M0,-8 L9,-14 M0,-8 L-9,-14 M0,4 L10,-2 M0,4 L-10,-2 M0,16 L8,10 M0,16 L-8,10' stroke='%235a9440' stroke-width='1.2' fill='none'/%3E%3C/g%3E%3Cg transform='translate(100,88) rotate(8) scale(1)'%3E%3Cpath d='M0,-23 C13,-15 14,8 7,20 C3,26 0,30 0,32 C0,30 -3,26 -7,20 C-14,8 -13,-15 0,-23 Z' fill='%2397c459'/%3E%3Cpath d='M0,-19 L0,29' stroke='%234f8f3f' stroke-width='1.5' fill='none'/%3E%3Cpath d='M0,-8 L9,-14 M0,-8 L-9,-14 M0,4 L10,-2 M0,4 L-10,-2 M0,16 L8,10 M0,16 L-8,10' stroke='%234f8f3f' stroke-width='1.2' fill='none'/%3E%3C/g%3E%3Cg transform='translate(165,85) rotate(-8) scale(0.8)'%3E%3Cpath d='M0,-23 C13,-15 14,8 7,20 C3,26 0,30 0,32 C0,30 -3,26 -7,20 C-14,8 -13,-15 0,-23 Z' fill='%232f7b44'/%3E%3Cpath d='M0,-19 L0,29' stroke='%23173404' stroke-width='1.5' fill='none'/%3E%3Cpath d='M0,-8 L9,-14 M0,-8 L-9,-14 M0,4 L10,-2 M0,4 L-10,-2 M0,16 L8,10 M0,16 L-8,10' stroke='%23173404' stroke-width='1.2' fill='none'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+@media (max-width: 600px) {
+  body::after {
+    height: 60px;
+    background-size: 130px 60px;
+  }
+}
